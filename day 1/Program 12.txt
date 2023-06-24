@@ -1,0 +1,7 @@
+<html>
+<body>
+<p><a href=Blacl.html>click me for Blacl color</a></p>
+<p><a href=Blue.html>click me for Blue color</a></p>
+<p><a href=Red.html>click me for Red color</a></p>
+</body>
+</html>
