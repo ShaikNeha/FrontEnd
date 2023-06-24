@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Training Survey form</title>
+</head>
+<body>
+<h1>Training Survey Form</h1>
+<Form>
+<div>
+<label>Name</label>
+<input type="text"id="Name"placeholder="Enter your name"/>
+</div>
+<br/>
+<div>
+<label>email</label>
+<input type="text"id="email"placeholder="enter your email"/>
+</div>
+<br/>
+<div>
+<label>Age</label>
+<input type="text"id="age"placeholder="enter your age"/>
+</div>
+<div>
+<label for="role" which option best describe you?</label><br/>
+<!--dropdown list-->
+<select name="role">
+<option value="student">student</option>
+<option value="intern">intern</option>
+<option value="professor">professor</option>
+<option value="other">other</option><br/>
+</select>
+</div>
+
+<div>
+<label>would you recommended praveen sir</label><br/>
+<!--input type radio button-->
+<label for="recomment-1">
+<input type="radio"id="recoment-1"name="recoment">yes</input>
+</label>
+<label for="recomment-2">
+<input type="radio"id="recoment-2"name="recoment">no</input>
+</label>
+<label for="recomment-3">
+<input type="radio"id="recoment-3"name="recoment">maybe</input>
+</label>
+</div>
+<div>
+<label>languages and framework know
+<small>(check all the apply)</small>
+</label><br/>
+<!--input type checkbox-->
+<label for="inp-1">
+<input type="checkbox"name="inp">C</input></label>
+<label for="inp-2">
+<input type="checkbox"name="inp">C++</input></label>
+
+<label for="inp-3">
+<input type="checkbox"name="inp">C#</input></label>
+
+<label for="inp-4">
+<input type="checkbox"name="inp">Java</input></label>
+
+<label for="inp-5">
+<input type="checkbox"name="inp">Python</input></label>
+<label for="inp-6">
+<input type="checkbox"name="inp">JavaScript</input></label>
+<label for="inp-7">
+<input type="checkbox"name="inp">React</input></label>
+<label for="inp-8">
+<input type="checkbox"name="inp">Angular</input></label>
+<label for="inp-9">
+<input type="checkbox"name="inp">Django</input></label>
+<label for="inp-10">
+<input type="checkbox"name="inp">Spring</input></lable>
+</div>
+<div><label>Any Comment or Suggestion</label>
+<!--multi line textinput control-->
+<textarea name="comment"id="comment"placeholder="enter your comment here">
+</textarea>
+</div>
+<!--multi line Text input controll-->
+<button type="submit"value="submit">submit
+</button>
+</form>
+</body>
+</html>
