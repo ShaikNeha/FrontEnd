@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+ 
+ <body>
+  <h2> HTML Iframe example</h2>
+  <p>Use the height and width attributes to specify the size of the iframe</p>
+  <iframe src="https://www.mtitech.edu.in//" 
+  style="height:400px;width:400px;border:none;"></iframe>
+
+ </body>
+</html>

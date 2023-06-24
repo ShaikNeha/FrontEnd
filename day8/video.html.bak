@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+ 
+ <body>
+ <video control>
+ <source src="Doraemon.mp4" type="video/mp4">
+ Your browser does not support the html video tag.
+ </video>
+
+
+ </body>
+</html>
