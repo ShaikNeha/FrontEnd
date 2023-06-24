@@ -1,0 +1,31 @@
+<!--
+Java script email validation 
+we can validate the email -->
+<!doctype html>
+<html lang="en">
+ <head>
+<script>
+function validateemail()
+{
+var x=document.myform.email.value;
+var atposition=x.indexOf("@");
+var dotposition=x.lastIndexOf(".");
+if(x.length>(dotposition +2)&&(atposition>=1)){
+return true;
+}
+
+else{
+alert("please enter a valid e-mail address\n atposition:"+atposition+"\n dotposition:"+dotposition);
+return false;
+}
+
+}
+
+</script>
+</head>
+<body>
+<form name="myform" method="post" action="#"
+onsubmit="return validateemail();">
+Email:<input type="text" name="email"><br/>
+<input type="submit" value="register">
+</form></body></html>

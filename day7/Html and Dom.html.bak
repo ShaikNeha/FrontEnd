@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+ <head><script>
+ function demo1(){
+	 document.getElementById("p2").style.color="blue";
+	 document.getElementById("p2").style.fontFamily="Arial";
+	 document.getElementById("p2").style.fontSize="larger";
+ </script>
+ 
+ </head>
+ <body>
+ <h2>Javascript Html Dom</h2>
+ <p>changing the html style:</p>
+
+ <p id="p1">Hello World!</p>
+  <p id="p2">Hello World!</p>
+  <input type="submit" text="click me" onclick="demo1()"/>
+ </body>
+</html>
