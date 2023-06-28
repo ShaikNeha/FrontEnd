@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Title-->
+<title>CRUD-JS</title>
+<!--CSS File-->
+<link rel="stylesheet"href="day6.css">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+<a href="home.html">Home</a>
+<div class="dropdown">
+
+<button class="dropbtn">About us</button>
+<div class="dropdown-content">
+
+</div></div></div>
+
+
+<CENTER><h2>Student Record</h2></CENTER>
+<!--Table-->
+<table>
+<!--Row-1-->
+<tr>
+<!--Coloumn-1-->
+<td>
+<!--form-->
+<Form onsubmit="event.preventDefault();onFormSubmit();"autocomplete="off">
+<h3>Student Form</h3>
+
+<!--div-1-->
+<div>
+<label>Id</label>
+<!--Validation Error-->
+<label class="validation-error hide" id="IdNovalidationError">This field  is required</label>
+</div>
+<!--input IdNo-->
+<input type="text" name="idNo" id="idNo" placeholder="Enter the ID number">
+</div>
+<!--div-2-->
+<div>
+<label>Name</label>
+<!--Validation Error-->
+<label class="validation-error hide" id="userNamevalidationError">This field is required</label>
+</div>
+<!--Input  Name-->
+<input type="text" name="userName" id="userName" placeholder="Enter the Name">
+</div>
+<!--div-3-->
+<div>
+<label>Course</label>
+<!--Validation Error-->
+<label class="validation-error hide" id="coursevalidationError">This field  is required</label>
+</div>
+<!--Input Course-->
+<input type="text" name="course" id="course" placeholder="Enter the Course">
+</div>
+<!--div-4-->
+<div>
+<label>Adhar</label>
+<!--Validation Error-->
+<label class="validation-error hide" id="adharvalidationError">This field  is required</label>
+</div>
+<!--Input Adhar-->
+<input type="number" name="adhar" id="adhar" placeholder="Enter the Adhar Number ">
+</div>
+
+<!--div5-->
+<div class="form-action-buttons">
+<!--Input Button-->
+<input type="submit"value="Add">
+<!--Input Button-->
+<input type="submit"value="Clear">
+<!--Input Button-->
+<input type="submit"value="Exit">
+</div>
+</form>
+</td>
+<!--coloumn-2-->
+<td>
+<!--Nested Table-->
+<table class="list" id="stdlist"style="background-color:#C2976D;">
+<!--Table Head-->
+<thead>
+<!--Row-2-->
+<tr>
+<th>Id </th>
+<th>Name</th>
+<th>Course</th>
+<th>Adhar</th>
+
+<th>Action</th>
+</tr>
+</thead>
+<!--Table Body-->
+<tbody>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<!--JS File-->
+<script src="script2.js"></script>
+</body>
+</html>
+
